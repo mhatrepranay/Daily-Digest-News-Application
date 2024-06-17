@@ -1,0 +1,65 @@
+ #hi{
+    border: 1px solid rgb(255, 255, 255);
+ }
+
+ @keyframes marquee {
+   0% { transform: translateX(100%); }
+   100% { transform: translateX(-100%); }
+}
+
+.animate-marquee {
+   
+   animation: marquee 20s linear infinite;
+}
+
+.animate-marquee:hover {
+   animation-play-state: paused;
+}
+
+.animate-marquee span {
+   display: inline-block;
+   font-size: 20px;
+   margin: 0 10px; /* Adjust spacing between headlines */
+}
+
+@keyframes blink {
+   0% {
+       opacity: 0;
+   }
+   50% {
+       opacity: 1;
+   }
+   100% {
+       opacity: 0;
+   }  
+}
+
+.animate-blink {
+   animation: blink 1s infinite;
+}
+
+.fade-in {
+   opacity: 1;
+   transition: opacity 0.5s ease-in-out;
+}
+
+
+/* In Home.css */
+.slider-text {
+   position: absolute;
+   transition: opacity 1s ease-in-out;
+   opacity: 0;
+   height: 100%;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.slider-text.active {
+   opacity: 1;
+}
+
+
+
+

@@ -1,0 +1,35 @@
+.category-button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    /* background-color: #069966; */
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .category-button.active {
+    background-color: #838080;
+    color: #fff;
+  }
+  .category-button:hover {
+    background-color: #a7a7a7a0;
+    color: #fff;
+  }
+
+  .news-image-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-image {
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Set a maximum width */
+    max-height: 200px; /* Set a maximum height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+  

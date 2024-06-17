@@ -1,0 +1,10 @@
+ /* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: rgb(151,160,181);
+background: radial-gradient(circle, rgba(151,160,181,1) 0%, rgba(1, 0, 32, 0.909) 100%);
+}
+

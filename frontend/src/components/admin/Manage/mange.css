@@ -1,0 +1,19 @@
+.hide1::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .hide1 {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  }
+
+  .com-bg{
+    background: rgb(233,233,234);
+    background: linear-gradient(0deg, rgba(233,233,234,1) 13%, rgba(69,92,122,1) 100%);
+  }
+
+  /* mange.css */
+ 
+
+  

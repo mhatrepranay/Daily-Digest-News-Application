@@ -1,0 +1,203 @@
+.hide1::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .hide1 {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  }
+  
+   
+  
+  /* For medium screens (640px) */
+  @media (min-width: 640px) {
+      .grid-md {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 25px;
+      }
+    }
+    
+    /* For large screens (1024px) */
+    @media (min-width: 1024px) {
+      .grid-lg {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 25px;
+      }
+    }
+    
+    /* For extra-large screens (1500px) */
+    @media (min-width: 1500px) {
+      .grid-xl1 {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 35px;
+      }
+    }
+    /* For medium screens (640px) */
+    @media (min-width: 640px) {
+      .grid-md1 {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 25px;
+      }
+    }
+    
+    /* For large screens (1024px) */
+    @media (min-width: 1024px) {
+      .grid-lg1 {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 25px;
+      }
+    }
+    
+    /* For extra-large screens (1500px) */
+    @media (min-width: 1500px) {
+      .grid-xl {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 35px;
+      }
+    }
+    
+    /* For medium screens (640px) */
+    @media (min-width: 640px) {
+      /* Apply margin-top of -60px to the third child of .md */
+      .grid-md1 > *:nth-child(3) {
+        margin-top: -30px;
+        border-top: 0;
+      }
+      .grid-md1 > *:nth-child(1) {
+        border-bottom: 0;
+      }
+    
+      /* Apply margin-top of -40px to the sixth child of .md */
+      .grid-md1 > *:nth-child(6) {
+        margin-top: -10px;
+      }
+    }
+    #hov:hover{
+  color: rgb(151, 8, 8);
+    }
+    
+   
+  
+  .button {
+      padding: 10px;
+      margin-right: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  .button.selected {
+      background-color: #00e344; /* Your selected color */
+      color: white;
+  }
+  
+  .button:not(.selected) {
+      background-color: #f2f2f2; /* Your default button color */
+      color: #333;
+  }
+  
+  
+  /* admin.css */
+  
+  /* Smooth transitions for buttons */
+  .transition-all {
+    transition-property: all;
+  }
+  
+  /* Smooth hover and selection transitions */
+  .duration-300 {
+    transition-duration: 300ms;
+  }
+  
+  .ease-in-out {
+    transition-timing-function: ease-in-out;
+  }
+  
+  /* Scale effect on category selection */
+  .transform {
+    transform: scale(1);
+  }
+  
+  .scale-105 {
+    transform: scale(1.05); /* Adjust scale factor as needed */
+  }
+  
+  /* Smooth animations for article grid */
+  .delay-0 {
+    transition-delay: 250ms;
+  }
+  
+  .delay-1 {
+    transition-delay: 150ms; /* Adjust delay times for staggered animation */
+  }
+  .delay-2 {
+    transition-delay: 200ms; /* Adjust delay times for staggered animation */
+  }
+  .delay-3 {
+    transition-delay: 250ms; /* Adjust delay times for staggered animation */
+  }
+  .delay-4 {
+    transition-delay: 300ms; /* Adjust delay times for staggered animation */
+  }
+  .delay-5 {
+    transition-delay: 350ms; /* Adjust delay times for staggered animation */
+  }
+  
+  /* Add more delay classes as needed for each index */
+  
+  
+  #pos{
+    position: sticky;
+  }
+  
+  #round{
+    border-bottom-left-radius:70px;
+  }
+   
+  
+  
+  .dropdown-btn {
+   
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: #d4cfcf;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000; /* Ensure it's above other elements */
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content div{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    /* display: block; */
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  .dropdown-content div:hover {
+    background-color: #f1f1f1;
+  }
+  
